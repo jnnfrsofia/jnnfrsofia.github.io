@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jnnfrsofia/jnnfrsofia.github.io/issues"
   },
-  "homepage": "https://github.com/jnnfrsofia/jnnfrsofia.github.io#readme"
+  "homepage": "https://github.com/jnnfrsofia/jnnfrsofia.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
 }
