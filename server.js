@@ -10,8 +10,8 @@ var app = express();
 //Sets PORT variable
 const PORT = process.env.PORT || 3000;
 
-//Serves static content for the app from the 'index.html' directory
-app.use(express.static(__dirname + '/style'));
+//Serves static content for the app from the 'public' directory
+app.use(express.static(__dirname + '/public'));
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
