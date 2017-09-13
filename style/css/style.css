@@ -1,0 +1,166 @@
+/* GENERAL styling */
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	height: 100%;
+}
+
+.main {
+    overflow: scroll;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+}
+
+
+/* navbar styling */
+
+nav {
+    background-color: #66ccff;
+    height: 100px;
+}
+
+.nav-wrapper {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+/* about me styling */
+
+.about {
+    margin-top: 30px;
+
+}
+
+p {
+	line-height: 1.25;
+}
+
+.profilePic {
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 83px;
+    align-content: center;
+}
+
+
+/* tech-stack styling */
+
+.headers {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.tech-stack-sec {
+    margin-top: 15px;
+    text-align: center;
+    height: 500px;
+}
+
+.sectionHeader {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5d6362;
+    /* background-color: #34356f; */
+    color: black;
+    text-align: center;
+}
+
+.tech {
+    font-size: 100px;
+    padding: 20px;
+    color: #828282;
+}
+
+.tech:hover {
+    color: #315a98;
+}
+
+.titleFont {
+
+    /* font-family: 'Exo', sans-serif; */
+}
+
+
+/* projects styling */
+
+
+.card {
+text-align: center;
+}
+.card-title {
+text-decoration: underline;
+}
+
+.portfolioProject {
+width: 100%;
+height: 100%;
+}
+
+#brgrImg{
+width: 350px;
+height: 150px;
+}
+.project-description {
+line-height: 1.25;
+}
+
+/* resume styling */
+
+.resume {
+	width: 100%;
+	height: 80%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/* footer styling */
+
+.page-footer {
+    background-color: #66ccff;
+    width: 100%;
+    bottom: 0;
+    padding-top: 10px;
+    margin-top: 15px;
+    position: relative;
+    height: 250px;
+    margin-top: -150px;
+}
+
+.container.footer-area {
+    text-align: center;
+    height: 100%;
+}
+
+.contactArea {
+    font-size: 60px;
+}
+
+.contact-icons {
+    margin: 10px;
+    color: black;
+}
+
+.contact-icons:hover {
+    opacity: 1;
+    color: white;
+}
+
+.phone {
+    font-size: 25px;
+    color: black;
+    opacity: .7;
+    margin: 5px;
+}
+
+.phone:hover {
+    opacity: 1;
+    color: white;
+}
