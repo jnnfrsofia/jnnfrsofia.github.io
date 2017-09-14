@@ -10,8 +10,9 @@ var app = express();
 //Sets PORT variable
 const PORT = process.env.PORT || 3000;
 
-//Serves static content for the app from the 'public' directory
+// Serves static content for the app from the 'public' directory
 app.use(express.static(__dirname + '/public'));
+
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
@@ -25,7 +26,15 @@ app.use(bodyParser.json({
 
 // Routes
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
+})
+
+app.get("/projects", function (req, res) {
+	res.sendFile(path.join(__dirname, "public/projects.html"));
+})
+
+app.get("/resume", function (req, res) {
+	res.sendFile(path.join(__dirname, "public/resume.html"));
 })
 
 // Starts the server to begin listening
