@@ -1,11 +1,11 @@
 /* GENERAL styling */
 
 html {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-	height: 100%;
+    height: 100%;
 }
 
 .main {
@@ -13,6 +13,7 @@ body {
     margin-bottom: 30px;
     padding-bottom: 100px;
 }
+
 
 
 /* navbar styling */
@@ -23,20 +24,20 @@ nav {
 }
 
 .nav-wrapper {
-	font-size: 28px;
-	font-weight: bold;
+    font-size: 28px;
+    font-weight: bold;
 }
+
 
 
 /* about me styling */
 
 .about {
     margin-top: 30px;
-
 }
 
 p {
-	line-height: 1.25;
+    line-height: 1.25;
 }
 
 .profilePic {
@@ -45,6 +46,7 @@ p {
     border-radius: 83px;
     align-content: center;
 }
+
 
 
 /* tech-stack styling */
@@ -88,37 +90,46 @@ p {
 }
 
 
+
 /* projects styling */
 
-
 .card {
-text-align: center;
+    text-align: center;
 }
+
 .card-title {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 .portfolioProject {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-#brgrImg{
-width: 350px;
-height: 150px;
+#brgrImg {
+    width: 350px;
+    height: 150px;
 }
+
 .project-description {
-line-height: 1.25;
+    line-height: 1.25;
 }
+
+#streetwiseImg {
+    width: 300px;
+    height: 150px;
+}
+
 
 /* resume styling */
 
 .resume {
-	width: 100%;
-	height: 80%;
-	padding-top: 30px;
-	padding-bottom: 30px;
+    width: 100%;
+    height: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 
 
 /* footer styling */
