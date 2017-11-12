@@ -16,6 +16,7 @@ body {
 
 
 
+
 /* navbar styling */
 
 nav {
@@ -31,6 +32,7 @@ nav {
 title {
     margin-left: 20px;
 }
+
 
 
 
@@ -50,6 +52,7 @@ p {
     border-radius: 83px;
     align-content: center;
 }
+
 
 
 
@@ -95,6 +98,7 @@ p {
 
 
 
+
 /* projects styling */
 
 .card {
@@ -125,11 +129,19 @@ p {
 }
 
 
+
 /* resume styling */
 
-.resume {
+#embeddedResume {
     width: 100%;
-    height: 80%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.drive-viewer {
+     width: 750px;
+    height: 1000px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -145,6 +157,17 @@ p {
     padding-top: 10px;
     margin-top: 15px;
     position: relative;
+    height: 250px;
+    margin-top: -150px;
+}
+
+.resume-page-footer {
+    background-color: #66ccff;
+    width: 100%;
+    bottom: 0;
+    padding-top: 10px;
+    margin-top: 15px;
+    position: fixed;
     height: 250px;
     margin-top: -150px;
 }
