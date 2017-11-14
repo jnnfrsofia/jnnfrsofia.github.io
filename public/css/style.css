@@ -15,8 +15,6 @@ body {
 }
 
 
-
-
 /* navbar styling */
 
 nav {
@@ -29,10 +27,10 @@ nav {
     font-weight: bold;
 }
 
-title {
+
+.brand-logo {
     margin-left: 20px;
 }
-
 
 
 
@@ -52,7 +50,6 @@ p {
     border-radius: 83px;
     align-content: center;
 }
-
 
 
 
@@ -91,13 +88,6 @@ p {
     color: #315a98;
 }
 
-.titleFont {
-
-    /* font-family: 'Exo', sans-serif; */
-}
-
-
-
 
 /* projects styling */
 
@@ -133,22 +123,16 @@ p {
 /* resume styling */
 
 #embeddedResume {
-    width: 100%;
-    height: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.drive-viewer {
-     width: 750px;
-    height: 1000px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    border: 1px solid #5d6362;
 }
 
 
-
-/* footer styling */
+/*
+ footer styling */
 
 .page-footer {
     background-color: #66ccff;
@@ -161,16 +145,6 @@ p {
     margin-top: -150px;
 }
 
-.resume-page-footer {
-    background-color: #66ccff;
-    width: 100%;
-    bottom: 0;
-    padding-top: 10px;
-    margin-top: 15px;
-    position: fixed;
-    height: 250px;
-    margin-top: -150px;
-}
 
 .container.footer-area {
     text-align: center;
